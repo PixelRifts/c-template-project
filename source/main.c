@@ -7,8 +7,6 @@
 #include "core/resources.h"
 #include "opt/render_2d.h"
 
-#include "chip8.h"
-
 int main(int argc, char **argv) {
   OS_Init();
   ThreadContext context = {0};
